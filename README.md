@@ -21,7 +21,6 @@ Switcher is a responsive React + TypeScript application that fetches product dat
 ---
 
 ## 🏗️ Project Structure
-
 src/
 ├── components/
 │ ├── Header.tsx
@@ -61,7 +60,7 @@ yarn dev
 Open your browser and visit: http://localhost:5173
  ```
 
-🧠 Theme Logic
+##🧠 Theme Logic
 Themes are handled through ThemeContext.tsx:
 
 Theme values: 'theme1' | 'theme2' | 'theme3'
@@ -77,7 +76,7 @@ const getInitialTheme = (): Theme => localStorage.getItem('app-theme') as Theme 
 
 ---
 
-📄 Styling Notes
+##📄 Styling Notes
 Styles are defined in App.css
 
 Theme-specific classes like .theme1, .theme2, .theme3 are applied to the root <div className="app-wrapper">
@@ -87,11 +86,12 @@ Smooth transitions between themes using transition in CSS
 Responsive product cards use grid layout
 
 ---
-📬 API Reference
+##📬 API Reference
 All products are fetched from:
 
 https://fakestoreapi.com/products
-🧾 Additional Notes
+
+##🧾 Additional Notes
 Built with React 18, TypeScript, Vite
 
 No UI framework used (pure CSS)
