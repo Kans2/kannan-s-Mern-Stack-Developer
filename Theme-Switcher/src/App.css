@@ -337,6 +337,143 @@
   flex-grow: 1;
 }
 
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.about-content p {
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.about-content h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.about-content ul {
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.about-content li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.section-space {
+  height: 30px;
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.contact-box {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contact-box h2 {
+  margin-bottom: 20px;
+}
+
+.contact-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.contact-box button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.contact-box {
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.contact-box h2 {
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  background: none;
+  cursor: pointer;
+}
+
+
+
+
 /* Responsive adjustments for sidebar */
 @media (max-width: 768px) {
   .theme2 .app-layout-main {

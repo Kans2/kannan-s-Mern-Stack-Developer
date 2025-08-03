@@ -1,9 +1,9 @@
-import { useTheme, type Theme } from '../context/ThemeContext';
+import { useTheme } from '../context/ThemeContext';
 import Product from "../components/Home2.tsx";
 
 
 export default function Home(){
-  const { theme, setTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     // The main app container, which will apply theme-specific styles from ThemeProvider
