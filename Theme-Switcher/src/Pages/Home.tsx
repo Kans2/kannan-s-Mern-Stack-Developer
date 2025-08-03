@@ -1,5 +1,5 @@
 import { useTheme } from '../context/ThemeContext';
-import Product from "../components/Home2.tsx";
+import Product from "../components/Product.tsx";
 
 
 export default function Home(){
