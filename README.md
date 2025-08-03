@@ -21,6 +21,7 @@ Switcher is a responsive React + TypeScript application that fetches product dat
 ---
 
 ## 🏗️ Project Structure
+```
 src/
 ├── components/
 │ ├── Header.tsx
@@ -36,7 +37,7 @@ src/
 ├── App.tsx
 ├── index.tsx
 └── App.css
-
+```
 
 ---
 
