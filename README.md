@@ -1,6 +1,6 @@
-# 🌍 ShopVerse – Themed Product Showcase App
+# 🌍 Multi-Theme Switcher App
 
-ShopVerse is a responsive React + TypeScript application that fetches product data from a public API and supports **dynamic theming**, including light, dark, and colorful themes. The app demonstrates use of `Context`, `localStorage`, conditional layouts, and modular components.
+Switcher is a responsive React + TypeScript application that fetches product data from a public API and supports **dynamic theming**, including light, dark, and colorful themes. The app demonstrates use of `Context`, `localStorage`, conditional layouts, and modular components.
 
 ## 🚀 Features
 
@@ -45,8 +45,8 @@ src/
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/shopverse.git
-cd shopverse
+git clone https://github.com/Kans2/kannan-s-Mern-Stack-Developer.git
+cd Theme-Switcher
 
 
 npm install
@@ -59,6 +59,7 @@ npm run dev
 yarn dev
 
 Open your browser and visit: http://localhost:5173
+ ```
 
 🧠 Theme Logic
 Themes are handled through ThemeContext.tsx:
@@ -74,6 +75,8 @@ Applied globally via CSS class on the root wrapper
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 const getInitialTheme = (): Theme => localStorage.getItem('app-theme') as Theme || 'theme1';
 
+---
+
 📄 Styling Notes
 Styles are defined in App.css
 
@@ -83,6 +86,7 @@ Smooth transitions between themes using transition in CSS
 
 Responsive product cards use grid layout
 
+---
 📬 API Reference
 All products are fetched from:
 
@@ -94,12 +98,13 @@ No UI framework used (pure CSS)
 
 Google Fonts used in Theme 3 (can be configured in index.html)
 
+---
 🙌 Credits
 Built by Kannan as part of a themed React+TS showcase.
 
 
 
----
+
 
 
 
